@@ -18,6 +18,7 @@ export default function BottomTabs() {
       <Icon icon="receipt" text="Orders" />
       <Icon icon="user" text="Account" />
     </View>
+
   );
 }
 
