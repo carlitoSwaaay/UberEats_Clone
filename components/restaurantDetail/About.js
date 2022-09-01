@@ -46,4 +46,5 @@ const RestaurantDescription = (props) => (
   >
     {props.description}
   </Text>
+
 );
