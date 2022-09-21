@@ -8,10 +8,9 @@ export const store = configureStore(initialState, {
   reducer: {
 
     cartReducer: cartReducer,
-  }
+  },
 
+  return: store
 })
 
 
-
-return store;
