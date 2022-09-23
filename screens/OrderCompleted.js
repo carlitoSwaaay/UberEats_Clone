@@ -54,7 +54,10 @@ export default function OrderCompleted() {
           margin: 15,
           alignItems: "center",
           height: "100%",
-        }}
+        }} source={require("../assets/animations/scanner.json")}
+        autoPlay
+        speed={0.5}
+        loop={false}
       >
         <LottieView
           style={{ height: 100, alignSelf: "center", marginBottom: 30 }}
